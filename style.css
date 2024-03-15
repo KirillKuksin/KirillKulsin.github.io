@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    font-family: ;
+}
+header{
+    height: 72;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+header a{
+    margin-right: 25px ;
+    text-decoration: none;
+}
+main{
+    background-image:url(FanTime.png) ;
+    opacity="0.8"
+}
+.images{
+    background-image:url(FanTime.png);
+    background-repeat:repeat-x="100px";
+    background-repeat:repeat-y="100px";
+    background-size: 100% 100%;
+    background-size: contain;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repear;
+    width: 5000px; /*ширина элемента 5000px*/
+    height: 1000px; /*высота элемента 10000px*/
+}
+
+p{
+    color:blue  ;
+        margin: 15px 20px; 
+        /*внешние вертикальные - 15px, горизонтальные - 20px*/
+        padding: 25px 30px; 
+        /*внутренние вертикальные - 25px, горизонтальные - 30px*/
+}
+h1{
+    color:chartreuse;
+    margin: 15px 20px; 
+    /*внешние вертикальные - 15px, горизонтальные - 20px*/
+    padding: 25px 30px; 
+    /*внутренние вертикальные - 25px, горизонтальные - 30px*/
+}
